@@ -57,23 +57,23 @@ const useList = [
 const socialList = [
     {
         text: 'Facebook',
-        link: '#',
+        link: 'https://www.facebook.com/programming.agency23',
     },
     {
         text: 'Twitter',
-        link: '#',
+        link: 'https://twitter.com/Programm_agency',
     },
     {
         text: 'Instagram',
-        link: '#',
+        link: 'https://www.instagram.com/programming_agency',
     },
     {
         text: 'YouTube',
-        link: '#',
+        link: 'https://www.youtube.com/@ProgrammingAgency',
     },
     {
-        text: 'Github',
-        link: '#',
+        text: 'Linkedin',
+        link: 'https://www.linkedin.com/company/programming-agency',
     },
 ]
 
@@ -109,7 +109,7 @@ const Footer = () => {
                 <img src="assets/images/shape-img/03.png" alt="fst" className="fst-1" />
                 <img src="assets/images/shape-img/04.png" alt="fst" className="fst-2" />
             </div>
-            
+
             <div className="news-letter">
                 <div className="container">
                     <div className="section-wrapper">
@@ -127,7 +127,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            
+
             <footer>
                 <div className="footer-top padding-tb pt-0">
                     <div className="container">
@@ -178,7 +178,7 @@ const Footer = () => {
                                             <div className="content">
                                                 <ul className="lab-ul">
                                                     {socialList.map((val, i) => (
-                                                        <li key={i}><a href={val.link}>{val.text}</a></li>
+                                                        <li key={i}><a target="blank" href={val.link}>{val.text}</a></li>
                                                     ))}
                                                 </ul>
                                             </div>
@@ -218,5 +218,5 @@ const Footer = () => {
         </div>
     );
 }
- 
+
 export default Footer;
