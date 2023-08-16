@@ -1,4 +1,5 @@
 
+
 import { Link } from "react-router-dom";
 
 const newsTitle = "Want Us To Email You About Special Offers And Updates?";
@@ -34,11 +35,11 @@ const siteList = [
 const useList = [
     {
         text: 'About Us',
-        link: '#',
+        link: 'http://localhost:3000/about',
     },
     {
         text: 'Help Link',
-        link: '#',
+        link: 'http://localhost:3000/contact',
     },
     {
         text: 'Terms & Conditions',

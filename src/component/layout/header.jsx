@@ -24,7 +24,7 @@ let socialList = [
     },
     {
         iconName: 'icofont-web',
-        siteLink: 'programming-agency.com',
+        siteLink: 'https://www.programming-agency.com/',
     },
 ]
 
