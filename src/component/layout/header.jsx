@@ -1,30 +1,30 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
-const phoneNumber = "+800-123-4567 6587";
+const phoneNumber = "+8801518919421";
 const address = "Beverley, New York 224 USA";
 
 
 let socialList = [
     {
         iconName: 'icofont-facebook-messenger',
-        siteLink: '#',
+        siteLink: 'https://www.facebook.com/programming.agency23',
     },
     {
         iconName: 'icofont-twitter',
-        siteLink: '#',
+        siteLink: 'https://twitter.com/Programm_agency',
     },
     {
-        iconName: 'icofont-vimeo',
-        siteLink: '#',
+        iconName: 'icofont-whatsapp',
+        siteLink: 'https://web.whatsapp.com/+8801518919421',
     },
     {
-        iconName: 'icofont-skype',
-        siteLink: '#',
+        iconName: 'icofont-linkedin',
+        siteLink: 'https://www.linkedin.com/company/programming-agency/',
     },
     {
-        iconName: 'icofont-rss-feed',
-        siteLink: '#',
+        iconName: 'icofont-web',
+        siteLink: 'programming-agency.com',
     },
 ]
 
@@ -68,7 +68,7 @@ const Header = () => {
                         <div className="menu-area">
                             <div className="menu">
                                 <ul className={`lab-ul ${menuToggle ? "active" : ""}`}>
-                                <li><NavLink to="/">Home</NavLink></li> 
+                                    <li><NavLink to="/">Home</NavLink></li>
                                     <li className="menu-item-has-children">
                                         <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Courses</a>
                                         <ul className="lab-ul dropdown-menu">
