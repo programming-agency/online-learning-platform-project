@@ -111,11 +111,11 @@ const quickList = [
 const tweetList = [
     {
         iconName: 'icofont-twitter',
-        desc: <p>Aminur islam <a href="#">@CodexCoder Edukon #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
+        desc: <p>Aminur islam <a href="#">@Programming-Agency Edukon #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
     },
     {
         iconName: 'icofont-twitter',
-        desc: <p>Somrat islam <a href="#">@CodexCoder Edukon #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
+        desc: <p>Somrat islam <a href="#">@Programming-Agency Edukon #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
     },
 ]
 
@@ -234,7 +234,7 @@ const FooterThree = () => {
             <div className="footer-bottom">
                 <div className="container">
                     <div className="section-wrapper">
-                        <p>&copy; 2022 <Link to="/">Edukon</Link> Designed by <a href="https://themeforest.net/user/CodexCoder" target="_blank">CodexCoder</a> </p>
+                        <p>&copy; 2022 <Link to="/">Edukon</Link> Designed by <a href="https://themeforest.net/user/Programming-Agency" target="_blank">Programming-Agency</a> </p>
                         <div className="footer-bottom-list">
                             {footerbottomList.map((val, i) => (
                                 <a href={val.link} key={i}>{val.text}</a>
@@ -246,5 +246,5 @@ const FooterThree = () => {
         </footer>
     );
 }
- 
+
 export default FooterThree;

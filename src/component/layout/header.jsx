@@ -72,9 +72,11 @@ const Header = () => {
                                     <li className="menu-item-has-children">
                                         <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Courses</a>
                                         <ul className="lab-ul dropdown-menu">
+                                            <li><NavLink to='/course-single'>Courses</NavLink></li>
                                             <li><NavLink to="/course-view">Course View</NavLink></li>
                                         </ul>
                                     </li>
+
                                     <li><NavLink to="/blog">Blog</NavLink></li>
                                     <li><NavLink to="/about">About</NavLink></li>
                                     <li><NavLink to="/contact">Contact</NavLink></li>

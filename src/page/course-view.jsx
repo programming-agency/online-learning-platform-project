@@ -54,7 +54,7 @@ const CourseView = () => {
                                             </div>
                                             <div className="vp-video mb-4">
                                                 <video controls>
-                                                    <source src="http://demos.codexcoder.com/anthem/wp-content/uploads/2017/07/Ghum-by-Habib-Wahid-Ft.-Mithila.mp4" type="video/mp4" />
+                                                    <source src="http://demos.Programming-Agency.com/anthem/wp-content/uploads/2017/07/Ghum-by-Habib-Wahid-Ft.-Mithila.mp4" type="video/mp4" />
                                                 </video>
                                             </div>
                                             <div className={`content-wrapper ${icon ? "open" : ""}`} >

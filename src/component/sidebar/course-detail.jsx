@@ -96,7 +96,7 @@ const CourseSideDetail = () => {
                         <h6>{paymentTitle}</h6>
                     </div>
                     <div className="sp-thumb">
-                        <img src="assets/images/pyment/01.jpg" alt="CodexCoder" />
+                        <img src="assets/images/pyment/01.jpg" alt="Programming-Agency" />
                     </div>
                 </div>
                 <div className="sidebar-social">
@@ -118,5 +118,5 @@ const CourseSideDetail = () => {
         </div>
     );
 }
- 
+
 export default CourseSideDetail;
